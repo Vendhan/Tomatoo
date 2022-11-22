@@ -1,0 +1,1834 @@
+{
+  "data": [
+    {
+      "type": "SCAFFOLD",
+      "children": [
+        {
+          "type": "VERTICAL_LIST",
+          "children": [
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "SLIDER",
+              "children": [
+                {
+                  "id": "banner1",
+                  "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Banner1.jpeg?alt=media&token=121e693f-4c29-4afb-91d9-ab3439788de4",
+                  "action": "DETAIL"
+                },
+                {
+                  "id": "banner2",
+                  "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Banner2.jpeg?alt=media&token=7c73d10e-f706-4a04-8167-33f92249cc2e",
+                  "action": "DETAIL"
+                },
+                {
+                  "id": "banner3",
+                  "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Banner3.jpeg?alt=media&token=b7e7122a-cceb-48b3-8c97-5053d3378d69",
+                  "action": "DETAIL"
+                },
+                {
+                  "id": "banner4",
+                  "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Banner4.jpeg?alt=media&token=8ca5e833-eb44-4e36-b4a5-812717313390",
+                  "action": "DETAIL"
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "SIMPLE_HEADER_TEXT",
+              "value": "Eat what makes you happy"
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "8"
+            },
+            {
+              "type": "HORIZONTAL_LIST",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "alignment": "test",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Biryani.png?alt=media&token=ceef3770-f313-4296-9060-7a930cc40bec",
+                      "action": "LIST",
+                      "id": "biryani",
+                      "height": "72",
+                      "width": "72",
+                      "radius": "45"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "6"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Biryani"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "alignment": "test",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Burger.png?alt=media&token=4722851c-bf2c-4fc9-a381-cfda8a98eaa4",
+                      "action": "LIST",
+                      "id": "burger",
+                      "height": "72",
+                      "width": "72",
+                      "radius": "45"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "6"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Burger"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "alignment": "test",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Chicken.jpg?alt=media&token=1e296f91-7ae0-4a6d-beed-9c80025c6d57",
+                      "action": "LIST",
+                      "id": "chicken",
+                      "height": "72",
+                      "width": "72",
+                      "radius": "45"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "6"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Chicken"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "alignment": "test",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Pizza.png?alt=media&token=fabd47de-c095-4e5f-afb7-46863e51d1b2",
+                      "action": "LIST",
+                      "id": "pizza",
+                      "height": "72",
+                      "width": "72",
+                      "radius": "45"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "6"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Pizza"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "alignment": "test",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Noodles.png?alt=media&token=31f200e3-55e6-4324-9692-4acb16521eed",
+                      "action": "LIST",
+                      "id": "noodles",
+                      "height": "72",
+                      "width": "72",
+                      "radius": "45"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "6"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Noodles"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "alignment": "test",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Chaat.png?alt=media&token=34b84bd6-bb34-4b5e-9084-fb7c6ae3151b",
+                      "action": "LIST",
+                      "id": "chaat",
+                      "height": "72",
+                      "width": "72",
+                      "radius": "45"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "6"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Chaat"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "alignment": "test",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Shawarma.png?alt=media&token=625a2ae0-3ed7-4f70-ab71-7b0d5ff11e73",
+                      "action": "LIST",
+                      "id": "shawarma",
+                      "height": "72",
+                      "width": "72",
+                      "radius": "45"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "6"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Shawarma"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "alignment": "test",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Shakes.png?alt=media&token=701eb639-95a2-4fa0-b29f-6cbf4426976a",
+                      "action": "LIST",
+                      "id": "shake",
+                      "height": "72",
+                      "width": "72",
+                      "radius": "45"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "6"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Shake"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "8"
+            },
+            {
+              "type": "SIMPLE_HEADER_TEXT",
+              "value": "Popular Brands"
+            },
+            {
+              "type": "HORIZONTAL_LIST",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Bawarchi.png?alt=media&token=23e15038-c66b-493c-82a0-fd44fc98ab5f",
+                      "radius": "16",
+                      "height": "180",
+                      "width": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "TITLE",
+                      "value": "Bawarchi",
+                      "size": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.2"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 45 mins"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "20% OFF upto ₹100",
+                      "textStyle": "CAPTION"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Kritunga.jpg?alt=media&token=abf5cd80-46de-4a33-b0e4-a5f0672ef64c",
+                      "radius": "16",
+                      "height": "180",
+                      "width": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "TITLE",
+                      "value": "Kritunga Restaurant",
+                      "size": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.0"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 26 mins"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "10% OFF upto ₹70",
+                      "textStyle": "CAPTION"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Cafe%20Bahar.png?alt=media&token=926d86b2-e062-4c14-8b53-10c2bdeafa83",
+                      "radius": "16",
+                      "height": "180",
+                      "width": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "TITLE",
+                      "value": "Cafe Bahar",
+                      "size": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.4"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 15 mins"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "40% OFF upto ₹100",
+                      "textStyle": "CAPTION"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Naturals%20Ice%20Cream.png?alt=media&token=81e8882e-6bad-4be6-bcc0-ea0380236f7c",
+                      "radius": "16",
+                      "height": "180",
+                      "width": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "TITLE",
+                      "value": "Naturals Icecream",
+                      "size": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.7"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 10 mins"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Paradise%20Biryani.png?alt=media&token=4caee3c8-8c2f-40d6-8fec-e716722edda9",
+                      "radius": "16",
+                      "height": "180",
+                      "width": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "TITLE",
+                      "value": "Paradise Biryani",
+                      "size": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.3"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 12 mins"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "50% OFF upto ₹150",
+                      "textStyle": "CAPTION"
+                    }
+                  ]
+                },
+                {
+                  "type": "HORIZONTAL_SPACER",
+                  "width": "16"
+                },
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Karachi%20Bakkery.jpg?alt=media&token=02581e73-b0b4-4d17-bdf4-a486951e7967",
+                      "radius": "16",
+                      "height": "180",
+                      "width": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "TITLE",
+                      "value": "Karachi Bakkery",
+                      "size": "150"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.6"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 20 mins"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "30% OFF upto ₹120",
+                      "textStyle": "CAPTION"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "HEADER_WITH_BUTTON",
+              "value": "Restaurants around you",
+              "action": "LIST",
+              "id": "recommended"
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "8"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Barbeque%20Nation.png?alt=media&token=5730d31a-e85e-444a-b6e1-6d8f3e1dc677",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "Barbeque Nation"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.7"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 10 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Multi cuisine, Biryani",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "20% OFF upto ₹150",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Pizza%20Hut.png?alt=media&token=2e44975f-6516-4474-9c70-a5529cd88141",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "Pizza Hut"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "3.7"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 15 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Pizza, Burger, Sandwich",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "10% OFF upto ₹75",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Burger%20King.png?alt=media&token=976800aa-91c6-40e5-8c00-a513bf62db9d",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "Burger King"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.2"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 20 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Burger, Fast Food",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "20% OFF upto ₹100",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/KFC.jpg?alt=media&token=1bd64bc4-4138-405a-b386-1824f36eb168",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "KFC"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.5"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 24 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Chicken, Burgers, Fast Food",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "40% OFF upto ₹100",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Rayalaseema%20Rushulu.jpeg?alt=media&token=08748fdc-a823-4ab8-ad8a-744816b81d25",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "Rayalaseema Ruchulu"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.0"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 12 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "South Indian, Biryani",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "15% OFF upto ₹80",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Ala%20Liberty.png?alt=media&token=51ae6f70-1132-4556-838f-e308951721c8",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "A'la Liberty"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "3.8"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 24 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Multi cuisine, Italian",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "10% OFF upto ₹150",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+
+
+            {
+              "type": "BOX",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "HEADER_WITH_BUTTON",
+                      "value": "Top Rated Restaurants",
+                      "action": "LIST",
+                      "id": "recommended",
+                      "color": "WHITE"
+                    },
+                    {
+                      "type": "HORIZONTAL_LIST",
+                      "children": [
+                        {
+                          "type": "COLUMN",
+                          "children": [
+                            {
+                              "type": "IMAGE",
+                              "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Bawarchi.png?alt=media&token=23e15038-c66b-493c-82a0-fd44fc98ab5f",
+                              "radius": "16",
+                              "height": "180",
+                              "width": "150"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "8"
+                            },
+                            {
+                              "type": "TEXT",
+                              "textType": "SEMI_BOLD",
+                              "textStyle": "TITLE",
+                              "value": "Bawarchi",
+                              "size": "150",
+                              "color": "WHITE"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "ROW",
+                              "children": [
+                                {
+                                  "type": "RATING",
+                                  "value": "4.2",
+                                  "color": "WHITE"
+                                },
+                                {
+                                  "type": "TEXT",
+                                  "value": " - 45 mins",
+                                  "color": "WHITE"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "TEXT",
+                              "value": "20% OFF upto ₹100",
+                              "textStyle": "CAPTION",
+                              "color": "WHITE"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HORIZONTAL_SPACER",
+                          "width": "16"
+                        },
+                        {
+                          "type": "COLUMN",
+                          "children": [
+                            {
+                              "type": "IMAGE",
+                              "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Kritunga.jpg?alt=media&token=abf5cd80-46de-4a33-b0e4-a5f0672ef64c",
+                              "radius": "16",
+                              "height": "180",
+                              "width": "150"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "8"
+                            },
+                            {
+                              "type": "TEXT",
+                              "textType": "SEMI_BOLD",
+                              "textStyle": "TITLE",
+                              "value": "Kritunga Restaurant",
+                              "size": "150",
+                              "color": "WHITE"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "ROW",
+                              "children": [
+                                {
+                                  "type": "RATING",
+                                  "value": "4.0",
+                                  "color": "WHITE"
+                                },
+                                {
+                                  "type": "TEXT",
+                                  "value": " - 26 mins",
+                                  "color": "WHITE"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "TEXT",
+                              "value": "10% OFF upto ₹70",
+                              "textStyle": "CAPTION",
+                              "color": "WHITE"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HORIZONTAL_SPACER",
+                          "width": "16"
+                        },
+                        {
+                          "type": "COLUMN",
+                          "children": [
+                            {
+                              "type": "IMAGE",
+                              "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Cafe%20Bahar.png?alt=media&token=926d86b2-e062-4c14-8b53-10c2bdeafa83",
+                              "radius": "16",
+                              "height": "180",
+                              "width": "150"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "8"
+                            },
+                            {
+                              "type": "TEXT",
+                              "textType": "SEMI_BOLD",
+                              "textStyle": "TITLE",
+                              "value": "Cafe Bahar",
+                              "size": "150",
+                              "color": "WHITE"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "ROW",
+                              "children": [
+                                {
+                                  "type": "RATING",
+                                  "value": "4.4",
+                                  "color": "WHITE"
+                                },
+                                {
+                                  "type": "TEXT",
+                                  "value": " - 15 mins",
+                                  "color": "WHITE"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "TEXT",
+                              "value": "40% OFF upto ₹100",
+                              "textStyle": "CAPTION",
+                              "color": "WHITE"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HORIZONTAL_SPACER",
+                          "width": "16"
+                        },
+                        {
+                          "type": "COLUMN",
+                          "children": [
+                            {
+                              "type": "IMAGE",
+                              "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Naturals%20Ice%20Cream.png?alt=media&token=81e8882e-6bad-4be6-bcc0-ea0380236f7c",
+                              "radius": "16",
+                              "height": "180",
+                              "width": "150"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "8"
+                            },
+                            {
+                              "type": "TEXT",
+                              "textType": "SEMI_BOLD",
+                              "textStyle": "TITLE",
+                              "value": "Naturals Icecream",
+                              "size": "150",
+                              "color": "WHITE"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "ROW",
+                              "children": [
+                                {
+                                  "type": "RATING",
+                                  "value": "4.7",
+                                  "color": "WHITE"
+                                },
+                                {
+                                  "type": "TEXT",
+                                  "value": " - 10 mins",
+                                  "color": "WHITE"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HORIZONTAL_SPACER",
+                          "width": "16"
+                        },
+                        {
+                          "type": "COLUMN",
+                          "children": [
+                            {
+                              "type": "IMAGE",
+                              "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Paradise%20Biryani.png?alt=media&token=4caee3c8-8c2f-40d6-8fec-e716722edda9",
+                              "radius": "16",
+                              "height": "180",
+                              "width": "150"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "8"
+                            },
+                            {
+                              "type": "TEXT",
+                              "textType": "SEMI_BOLD",
+                              "textStyle": "TITLE",
+                              "value": "Paradise Biryani",
+                              "size": "150",
+                              "color": "WHITE"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "ROW",
+                              "children": [
+                                {
+                                  "type": "RATING",
+                                  "value": "4.3",
+                                  "color": "WHITE"
+                                },
+                                {
+                                  "type": "TEXT",
+                                  "value": " - 12 mins",
+                                  "color": "WHITE"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "TEXT",
+                              "value": "50% OFF upto ₹150",
+                              "textStyle": "CAPTION",
+                              "color": "WHITE"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HORIZONTAL_SPACER",
+                          "width": "16"
+                        },
+                        {
+                          "type": "COLUMN",
+                          "children": [
+                            {
+                              "type": "IMAGE",
+                              "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Karachi%20Bakkery.jpg?alt=media&token=02581e73-b0b4-4d17-bdf4-a486951e7967",
+                              "radius": "16",
+                              "height": "180",
+                              "width": "150"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "8"
+                            },
+                            {
+                              "type": "TEXT",
+                              "textType": "SEMI_BOLD",
+                              "textStyle": "TITLE",
+                              "value": "Karachi Bakkery",
+                              "size": "150",
+                              "color": "WHITE"
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "ROW",
+                              "children": [
+                                {
+                                  "type": "RATING",
+                                  "value": "4.6",
+                                  "color": "WHITE"
+                                },
+                                {
+                                  "type": "TEXT",
+                                  "value": " - 20 mins",
+                                  "color": "WHITE"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "VERTICAL_SPACER",
+                              "height": "4"
+                            },
+                            {
+                              "type": "TEXT",
+                              "value": "30% OFF upto ₹120",
+                              "textStyle": "CAPTION",
+                              "color": "WHITE"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "24"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+
+
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Chutneys.png?alt=media&token=221cee60-a638-4ccc-bd86-1a6b50dc265d",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "Chutneys"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.8"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 26 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "South Indian, Meals, Snacks",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "20% OFF upto ₹100",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/ABS.png?alt=media&token=188e5e66-554e-4315-9bd4-c6778012ee7a",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "AB’s Absolute Barbecue"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.5"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 16 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Multi cuisine, Biryani",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "30% OFF upto ₹150",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Flechazo.jpg?alt=media&token=08062488-9d60-473a-a636-6ae084ef68c7",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "Flechazo"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.1"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 22 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Multi cuisine, Chinese",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Jaalpan.jpg?alt=media&token=60f3fabe-6750-4200-8c8e-26157ca13b95",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "Jalpaan"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "3.7"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 10 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Multi cuisine, Italian",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "20% OFF upto ₹150",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/McDonalds.png?alt=media&token=c6b0cb9c-2122-48a4-b0fe-705ea63a9b3d",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "McDonald"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "4.3"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 16 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Multi cuisine, Italian",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "16"
+            },
+            {
+              "type": "CARD",
+              "padding": "16",
+              "radius": "16",
+              "children": [
+                {
+                  "type": "COLUMN",
+                  "children": [
+                    {
+                      "type": "IMAGE",
+                      "value": "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/o/Mehfil.png?alt=media&token=7ca4965f-c9d3-4146-8810-607825b73bff",
+                      "height": "180",
+                      "width": "400"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "16"
+                    },
+                    {
+                      "type": "TEXT",
+                      "textType": "SEMI_BOLD",
+                      "textStyle": "HEADLINE",
+                      "value": "Mehfil"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "ROW",
+                      "children": [
+                        {
+                          "type": "RATING",
+                          "value": "3.9"
+                        },
+                        {
+                          "type": "TEXT",
+                          "value": " - 10 mins",
+                          "textStyle": "SUBTITLE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "4"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "Biryani, Tandoori, Chinese",
+                      "textStyle": "SUBTITLE"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    },
+                    {
+                      "type": "TEXT",
+                      "value": "40% OFF upto ₹100",
+                      "textStyle": "CAPTION"
+                    },
+                    {
+                      "type": "VERTICAL_SPACER",
+                      "height": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+
+
+            {
+              "type": "VERTICAL_SPACER",
+              "height": "150"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
