@@ -7,8 +7,8 @@ private const val TOKEN = "alt=media&token=e5715f01-667f-4ad5-9e43-571265f5d208"
 
 interface HomePageApi {
 
-    // @GET("o/SampleData.json?$TOKEN")
-    @GET("getSDUIData")
+     @GET("o/SampleData.json?$TOKEN")
+//    @GET("getSDUIData")
     suspend fun fetchHomePageData(): RemoteModel
 }
 

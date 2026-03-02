@@ -11,8 +11,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
-// private const val BASE_URL = "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/"
-private const val BASE_URL = "http://192.168.1.100:8180/"
+ private const val BASE_URL = "https://firebasestorage.googleapis.com/v0/b/tomatoo-a85d6.appspot.com/"
+//private const val BASE_URL = "http://192.168.1.100:8180/"
 
 @Module
 @InstallIn(SingletonComponent::class)

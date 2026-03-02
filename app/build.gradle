@@ -9,7 +9,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.vendhan.tomatoo"
+        namespace "com.vendhan.tomatoo"
         minSdk 28
         targetSdk 32
         versionCode 1
